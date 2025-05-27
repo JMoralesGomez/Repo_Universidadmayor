@@ -21,8 +21,8 @@ table_name = 'bitcoin_price_storer'
 api_url = 'https://api.coinbase.com/v2/prices/btc-usd/spot'
 
 #Creadenciales en el código
-api_key="123456"
-api_key="Hello"
+#api_key="123456"
+#api_key="Hello"
 
 # 🚫 Typos corregidos y uso incorrecto de boto3 client
 dynamodb = boto3.client('dynamodb', region_name=region_name)
